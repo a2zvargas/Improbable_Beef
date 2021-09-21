@@ -1,0 +1,61 @@
+body {background-color: gray;}
+
+  .navbar {
+    width: 100%;
+    background-color: rgb(12, 1, 1);
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(141, 221, 177);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+   @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+
+  .jumbotron {
+    background-image: url("../images/biodiversity.png");
+    background-size: 100% 100%;
+    text-align: center;
+    color: red;
+    font-family: "Papyrus", Fantasy;
+    text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
+  }
+
+  .about {
+      color: white;
+  }
+
+  .bar {
+      color: white;
+  }
+
+  .gauge {
+    color: white;
+    }
+
+  .bubble {
+    color: white;
+    }
+
+  .well {
+    background-color: orange;
+    color: black;
+  }
